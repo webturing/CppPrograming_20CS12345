@@ -1,7 +1,4 @@
 
-//
-// Created by jal on 18-9-2.
-//
 #include <bits/stdc++.h>
 
 using namespace std;

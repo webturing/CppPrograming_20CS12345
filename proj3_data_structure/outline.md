@@ -20,6 +20,7 @@ int data[1000],head=0,tail=-1;//data[head:tail]={}
    - 查询队首元素 ```data[head]```
    - 判断容量 ```tail-head+1```
    - 判断是否是空队```head>tail``` 
+   
 ## 双端队列Deque 
 ```c++
 int data[maxn], head = maxn / 2, tail = head - 1;
