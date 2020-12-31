@@ -1,5 +1,5 @@
 # 基础数据结构
-- 栈 Stack FILO (First In Last Out)
+## 栈 Stack FILO (First In Last Out)
 ```$xslt
 int data[1000],top=-1;//data[0:top]= {}
 ```
@@ -9,7 +9,8 @@ int data[1000],top=-1;//data[0:top]= {}
    - 查询栈顶元素 data[top]
    - 判断栈的容量 top+1
    - 判断是否是空栈 top==-1 (~top)
-- 队列 Queue FIFO (First In First Out)
+   
+## 队列 Queue FIFO (First In First Out)
 ```$xslt
 int data[1000],head=0,tail=-1;//data[head:tail]={}
 ```
