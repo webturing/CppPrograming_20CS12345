@@ -1,7 +1,4 @@
 
-//
-// Created by jal on 18-9-2.
-//
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -15,9 +12,9 @@ void quick_sort(int*a, int left, int right){
     while(i != j){
         while(a[j] >= a[left] && i < j)j--;
         while(a[i] <= a[left] && i < j)i++;
-        if(i < j){
+        if(i < j)
             swap(a[i],a[j]);
-        }
+
     }
     swap(a[left], a[j]);
     quick_sort(a, left, j-1);

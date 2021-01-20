@@ -2,7 +2,7 @@
 
 using namespace std;
 const int maxn = 1000 + 10;
-int data[maxn], head = 0, tail = -1;
+int data[maxn], head = 0, tail = -1;//data[head,tail]
 
 int main() {
     head = 0, tail = -1;
